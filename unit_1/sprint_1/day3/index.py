@@ -57,3 +57,24 @@
 # my_set.remove(2)    
 
 # print(my_set)
+
+
+
+# Dictionaries (keys(), values(), items())
+
+employee = {
+    "id":23,
+    "name":"Ravi",
+    "department":"sales"
+}
+
+for key, value in employee.items():
+    print(key, " :  " ,value)
+
+    # Make a dictionary of numbers and their cubes (1 to 5)
+cube_dict = {x: x**3 for x in range(1, 6)}
+print(cube_dict)
+
+squares = [x**2 for x in range(1, 6)]
+print(squares)
+# Output: [1, 4, 9, 16, 25]
